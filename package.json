@@ -9,7 +9,7 @@
   "jest": {
     "reporters": [
       "default",
-      ["jest-junit", { "output": "./test-results.xml" }]
+      ["jest-junit", { "outputDirectory": "./", "outputName": "test-results.xml" }]
     ]
   },
   "author": "",
